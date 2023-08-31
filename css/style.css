@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body {
+    
+    font-family: open, sans-serif;
+    margin: 0;
+}
+.degrade {
+    background: linear-gradient(180deg, rgb(212, 174, 247), rgb(251, 245, 252));
+    margin: 0px 0px ;
+    max-width: 100%;
+    height: auto;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 50px 0px 50px;
+}
+.intro {
+    display: block;
+    margin: 20px;
+}
+.nombres {
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.bajada {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.descripcion {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.icono {
+    max-width: 30px;
+    padding: 20px 10px 30px 0px;
+}
+.perfil {
+    max-width: 25%;
+    position: center;
+    top: 15px;
+    right: auto;
+    height:auto;
+    
+}
+.caja {
+    background: linear-gradient(180deg, rgb(205, 183, 240), rgb(255, 255, 255));
+    border-radius: 20px;
+    height: auto;
+    max-width: 90%;
+    padding: 50px;
+    margin: 10px 20px 200px 80px;
+}
+.titulo {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+}
+
+.botonera {
+
+    display: block;
+    position: fixed;
+    margin: auto;
+}
+
+
+.boton {
+    width: 50px;
+    display: block;
+    padding: 5px;
+}
+.vacio {
+    max-width: 90%;
+    height: 200px;
+    margin: 200px;
+} 
